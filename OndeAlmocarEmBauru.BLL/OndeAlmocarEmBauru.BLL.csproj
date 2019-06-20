@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OndeAlmocarEmBauru.BLL.Infra\OndeAlmocarEmBauru.BLL.Infra.csproj" />
+    <ProjectReference Include="..\OndeAlmocarEmBauru.DAL.Infra\OndeAlmocarEmBauru.DAL.Infra.csproj" />
+    <ProjectReference Include="..\OndeAlmocarEmBauru.Helpers\OndeAlmocarEmBauru.Helpers.csproj" />
+  </ItemGroup>
+
+</Project>
